@@ -1,6 +1,6 @@
 body {
   font-family: 'Josefin Sans';
-  background-color: #FFFAFB;
+  background-color: rgb(158, 255, 255);
 }
 
 * {
@@ -57,9 +57,9 @@ body {
   position: absolute;
   right: 40px;
   top: 0px;
-  width: 700px;
-  height: 900px;
-  margin-top: -330px;
+  width: 600px;
+  height: 700px;
+  margin-top: -270px;
 
 }
 

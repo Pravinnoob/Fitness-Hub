@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Background color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;    /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100vh;          /* Full viewport height */
+        /* Adjust this value as needed */
+  margin: 0 auto;         /* Add this to center the container horizontally */
+}
+
+.title {
+  margin-bottom: 20px; /* Space between title and form */
+  font-size: 24px;     /* Title font size */
+  text-align: center;   /* Center the title text */
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Stack inputs vertically */
+     /* Center items horizontally in the form */
+  padding: 20px;
+  justify-content: center;
+       /* Adjust this value as needed */
+  background-color: white; /* Form background color */
+   /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  height: 100%;
+  width: 100%;
+}
+
+input {
+  width: 70%;           /* Full width of input fields */
+  padding: 10px;        /* Padding inside input fields */
+  margin: 10px 0;       /* Space between input fields */
+  border: 1px solid #1e1d1d; /* Border style */
+  border-radius: 4px;   /* Rounded corners */
+  box-sizing: border-box; /* Add this to ensure 
+  consistent box model */
+  height: 50px;
+}
+
+button {
+  padding: 20px;        /* Padding for button */
+  width: 70%;      /* Adjust this value as needed */
+  background-color: rgb(50, 173, 250); /* Green button */
+  color: white;         /* Text color */
+  border: none;         /* No border */
+  border-radius: 4px;   /* Rounded corners */
+  cursor: pointer;      /* Change cursor to pointer on hover */
+}
+
+button:hover {
+  background-color: #287fd1e2; /* Darken button on hover */
+}
